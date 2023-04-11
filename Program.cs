@@ -12,5 +12,12 @@ if (nbChoisi == nbMyst)
 }
 else
 {
-    Console.WriteLine("Dommage, c'est perdu !");
+    if (nbChoisi > nbMyst)
+    {
+        Console.WriteLine("Dommage, le nombre mystère est plus petit !");
+    }
+    else
+    {
+        Console.WriteLine("Dommage, le nombre mystère est plus grand !");
+    }
 }
