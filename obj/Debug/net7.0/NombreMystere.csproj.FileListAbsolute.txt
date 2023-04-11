@@ -1,0 +1,15 @@
+/Users/ngdev/NGDEV/DotNet/NombreMystere/bin/Debug/net7.0/NombreMystere
+/Users/ngdev/NGDEV/DotNet/NombreMystere/bin/Debug/net7.0/NombreMystere.deps.json
+/Users/ngdev/NGDEV/DotNet/NombreMystere/bin/Debug/net7.0/NombreMystere.runtimeconfig.json
+/Users/ngdev/NGDEV/DotNet/NombreMystere/bin/Debug/net7.0/NombreMystere.dll
+/Users/ngdev/NGDEV/DotNet/NombreMystere/bin/Debug/net7.0/NombreMystere.pdb
+/Users/ngdev/NGDEV/DotNet/NombreMystere/obj/Debug/net7.0/NombreMystere.csproj.AssemblyReference.cache
+/Users/ngdev/NGDEV/DotNet/NombreMystere/obj/Debug/net7.0/NombreMystere.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ngdev/NGDEV/DotNet/NombreMystere/obj/Debug/net7.0/NombreMystere.AssemblyInfoInputs.cache
+/Users/ngdev/NGDEV/DotNet/NombreMystere/obj/Debug/net7.0/NombreMystere.AssemblyInfo.cs
+/Users/ngdev/NGDEV/DotNet/NombreMystere/obj/Debug/net7.0/NombreMystere.csproj.CoreCompileInputs.cache
+/Users/ngdev/NGDEV/DotNet/NombreMystere/obj/Debug/net7.0/NombreMystere.dll
+/Users/ngdev/NGDEV/DotNet/NombreMystere/obj/Debug/net7.0/refint/NombreMystere.dll
+/Users/ngdev/NGDEV/DotNet/NombreMystere/obj/Debug/net7.0/NombreMystere.pdb
+/Users/ngdev/NGDEV/DotNet/NombreMystere/obj/Debug/net7.0/NombreMystere.genruntimeconfig.cache
+/Users/ngdev/NGDEV/DotNet/NombreMystere/obj/Debug/net7.0/ref/NombreMystere.dll
