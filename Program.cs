@@ -11,14 +11,20 @@ bool trouv = false;
 while (!trouv)
 {
     Console.Clear();
+
+
     Console.Write("Liste des chiffres déjà utilisés : ");
     foreach (int chiffre in list)
     {
         Console.Write($"{chiffre} ");
     }
     Console.WriteLine($"  - {indication}");
+
+
+
     Console.WriteLine($"{pseudo}, devinez le nombre mystere : ");
     nbChoisi = int.Parse(Console.ReadLine());
+
     if (nbChoisi == nbMyst)
     {
         trouv = true;
