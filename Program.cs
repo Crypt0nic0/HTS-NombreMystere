@@ -1,4 +1,6 @@
-﻿const int nbMyst = 38;
+﻿const int nbMyst = 7;
+const int nbMin = 1;
+const int nbMax = 10;
 int nbChoisi = 0;
 List<int> list = new List<int> { };
 string indication = "";
@@ -12,7 +14,6 @@ while (!trouv)
 {
     Console.Clear();
 
-
     Console.Write("Liste des chiffres déjà utilisés : ");
     foreach (int chiffre in list)
     {
@@ -20,10 +21,20 @@ while (!trouv)
     }
     Console.WriteLine($"  - {indication}");
 
-
-
-    Console.WriteLine($"{pseudo}, devinez le nombre mystere : ");
-    nbChoisi = int.Parse(Console.ReadLine());
+    nbChoisi = 0;
+    while (nbChoisi < nbMin || nbChoisi > nbMax)
+    {
+        Console.WriteLine($"{pseudo}, devinez le nombre mystere (entre {nbMin} et {nbMax}) : ");
+        try
+        {
+            nbChoisi = int.Parse(Console.ReadLine());
+        }
+        catch
+        {
+            nbChoisi = 0;
+            Console.WriteLine("Merci de saisir un entier");
+        }
+    }
 
     if (nbChoisi == nbMyst)
     {
