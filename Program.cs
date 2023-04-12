@@ -4,10 +4,17 @@ const int nbMax = 10;
 int nbChoisi = 0;
 List<int> list = new List<int> { };
 string indication = "";
+string? pseudo = null;
+
 
 Console.WriteLine("====== BIENVENU DANS LE NOMBRE MYSTERE ======");
-Console.WriteLine("Saisir votre pseudo : ");
-string pseudo = Console.ReadLine();
+
+while (pseudo is null || pseudo == "")
+{
+    Console.WriteLine("Saisir votre pseudo : ");
+    pseudo = Console.ReadLine();
+}
+
 bool trouv = false;
 
 while (!trouv)
@@ -27,7 +34,11 @@ while (!trouv)
         Console.WriteLine($"{pseudo}, devinez le nombre mystere (entre {nbMin} et {nbMax}) : ");
         try
         {
-            nbChoisi = int.Parse(Console.ReadLine());
+            string? nbchoice = Console.ReadLine();
+            if (nbchoice is not null)
+            {
+                nbChoisi = int.Parse(nbchoice);
+            }
         }
         catch
         {
