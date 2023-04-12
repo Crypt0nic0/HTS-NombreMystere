@@ -39,6 +39,10 @@ while (!trouv)
             {
                 nbChoisi = int.Parse(nbchoice);
             }
+            else
+            {
+                nbChoisi = 0;
+            }
         }
         catch
         {
